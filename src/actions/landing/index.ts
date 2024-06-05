@@ -24,7 +24,6 @@ export const onGetBlogPosts = async () => {
       );
       if (image) {
         //we push a post object into the array
-        console.log(image.data.media_details);
         const post: {
           id: string;
           title: string;
