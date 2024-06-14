@@ -35,7 +35,7 @@ export const ChangePassword = (props: Props) => {
             type="text"
             inputType="input"
           />
-          <Button className="bg-grandis text-gray-700 font-semibold">
+          <Button className="bg-grandis text-gray-700 font-semibold hover:bg-cream">
             <Loader loading={loading}>Change Password</Loader>
           </Button>
         </div>

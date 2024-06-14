@@ -28,7 +28,7 @@ export const MinMenu = ({
   domains,
 }: MinMenuProps) => {
   return (
-    <div className="p-3 flex flex-col items-center h-full">
+    <div className="p-4 flex flex-col items-center h-full">
       <span className="animate-fade-in opacity-0 delay-300 fill-mode-forwards cursor-pointer">
         <MenuLogo onClick={onShrink} />
       </span>
