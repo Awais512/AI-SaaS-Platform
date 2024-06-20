@@ -12,8 +12,6 @@ const DomainSettingsPage = async ({ params }: Props) => {
 
   if (!domain) redirect("/dashboard");
 
-  console.log("EROOOOOOOOOORRRRRRRRRRRR", domain.domains);
-
   return (
     <>
       <InfoBar />
